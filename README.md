@@ -1,2 +1,2 @@
 # vcqtnotes
-Qt music notes trainer
+A simple Qt music notes trainer.
