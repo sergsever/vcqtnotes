@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 	Pane* p = new Pane();
 	p->setGeometry(50, 50, 200, 100);
 	this->layout()->addWidget(p);
-	p->setNote(Si);
+	p->setNote(Do);
 }
 
 MainWindow::~MainWindow()

@@ -22,10 +22,15 @@ public:
     Pane();
 	void setNote(Notes note);
 protected:
+	const int COUNTLINES = 5;
+	const double PARTOFFIELD = 0.8;
+	const int CORRECTION = 7;
+	const int FINECORRECTION = 5;
 	Notes note = Not;
 void paintEvent(QPaintEvent* e);
 	void Draw(QPainter* pt);
 	void drawNote(Notes note, QPainter& qp);
+
 };
 
 #endif // PANE_H
